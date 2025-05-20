@@ -11,12 +11,12 @@ The starter files for this exercise are located in the `src` directory. Implemen
 1. `calculator.c`
 
 ## Instructions
-* In the file **calculator.c**, complete each function by: 
-  * Writing a return value for **int add(int a, int b)**
-  * Writing return value for **int subtract(int a, int b)**
-  * Writing return value for **int multiply(int a, int b)**
-  * Writing return value for **int divide(int a, int b)**
-  * Writing return value for **int modulo(int a, int b)**
+* Inside `calculator.c` implement the functions declared in the `calculator.h` header file. Be sure to include:
+  *  **int add(int a, int b)**
+  * **int subtract(int a, int b)**
+  * **int multiply(int a, int b)**
+  * **int divide(int a, int b)**
+  * **int modulo(int a, int b)**
     * The modulo operation (%) returns the remainder of division, for example:
       * 10 % 2 = 0
       * 7 % 2 = 1
@@ -345,6 +345,7 @@ Calculator Menu:
 2. Subtraction
 3. Multiplication
 4. Division
+5. Modulo
 0. Turn OFF
 Enter your choice: 1
 Enter two numbers: 5 3
@@ -356,6 +357,7 @@ Calculator Menu:
 2. Subtraction
 3. Multiplication
 4. Division
+5. Modulo
 0. Turn OFF
 Enter your choice: 4
 Enter two numbers: 10 0
@@ -367,6 +369,7 @@ Calculator Menu:
 2. Subtraction
 3. Multiplication
 4. Division
+5. Modulo
 0. Turn OFF
 Enter your choice: 0
 Calculator is OFF
